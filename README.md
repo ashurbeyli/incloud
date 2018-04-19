@@ -1,6 +1,6 @@
-# React FullStack Starter Kit
+# Incloud Task Tracker
 
-This is for React developers who wants to create full-stack application
+This application was bootstrapped by ashurbeyli/react-fullstack-starter-kit
 
 ### Tech
 
