@@ -7,7 +7,7 @@ const clientConfig = {
   name: 'client',
   resolve: {
     alias: {
-      Assets: path.resolve(__dirname, 'lib/assets/'),
+      Assets: path.resolve(__dirname, 'lib/client/assets/'),
     },
     modules: [path.resolve('./lib'), path.resolve('./node_modules')]
   },
@@ -24,7 +24,7 @@ const clientConfig = {
       'react-router-dom',
       'prop-types',
     ],
-    clientApp: ['./lib/renderers/dom.js']
+    clientApp: ['./lib/client/renderers/dom.js']
   },
   output: {
     path: path.resolve(__dirname, 'public'),
@@ -50,7 +50,7 @@ const clientConfig = {
         test: /\.(png|jpg)$/i,
         exclude: /node_modules/,
         loader: 'url-loader',
-        include: path.resolve(__dirname, 'lib/assets/images')
+        include: path.resolve(__dirname, 'lib/client/assets/images')
       },
       {
         test: /\.scss$/,
@@ -71,7 +71,7 @@ const serverConfig = {
   externals: [nodeExternals()],
   resolve: {
     alias: {
-      Assets: path.resolve(__dirname, 'lib/assets/'),
+      Assets: path.resolve(__dirname, 'lib/client/assets/'),
     }
   },
   entry: {
@@ -87,7 +87,7 @@ const serverConfig = {
       'react-router-dom',
       'prop-types',
     ],
-    serverApp: ['./lib/renderers/server.js']
+    serverApp: ['./lib/client/renderers/server.js']
   },
   output: {
     path: path.resolve(__dirname, 'public'),
@@ -114,7 +114,7 @@ const serverConfig = {
         test: /\.(png|jpg)$/i,
         exclude: /node_modules/,
         loader: 'url-loader',
-        include: path.resolve(__dirname, 'lib/assets/images')
+        include: path.resolve(__dirname, 'lib/client/assets/images')
       },
       {
         test: /\.scss$/,

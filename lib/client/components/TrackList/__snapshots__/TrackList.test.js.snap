@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TrackList should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TrackList
+    tasks={
+      Array [
+        Object {
+          "__v": 0,
+          "_id": "5ad91326115be0385d527a1b",
+          "createdAt": "2018-04-19T22:07:34.639Z",
+          "description": "asdfafa",
+          "pieces": Array [],
+          "updatedAt": "2018-04-19T22:07:34.640Z",
+          "user_id": "5ad65aa44212e29c4a922af7",
+        },
+        Object {
+          "__v": 0,
+          "_id": "5ad916889a0c1f39b919eff7",
+          "createdAt": "2018-04-19T22:07:34.639Z",
+          "description": "asdfafa",
+          "pieces": Array [],
+          "updatedAt": "2018-04-19T22:07:34.640Z",
+          "user_id": "5ad65aa44212e29c4a922af7",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "bsClass": "list-group",
+      "children": Array [
+        <Unknown
+          onDelete={[Function]}
+          task={
+            Object {
+              "__v": 0,
+              "_id": "5ad91326115be0385d527a1b",
+              "createdAt": "2018-04-19T22:07:34.639Z",
+              "description": "asdfafa",
+              "pieces": Array [],
+              "updatedAt": "2018-04-19T22:07:34.640Z",
+              "user_id": "5ad65aa44212e29c4a922af7",
+            }
+          }
+        />,
+        <Unknown
+          onDelete={[Function]}
+          task={
+            Object {
+              "__v": 0,
+              "_id": "5ad916889a0c1f39b919eff7",
+              "createdAt": "2018-04-19T22:07:34.639Z",
+              "description": "asdfafa",
+              "pieces": Array [],
+              "updatedAt": "2018-04-19T22:07:34.640Z",
+              "user_id": "5ad65aa44212e29c4a922af7",
+            }
+          }
+        />,
+      ],
+      "className": "tracklist",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "5ad91326115be0385d527a1b",
+        "nodeType": "function",
+        "props": Object {
+          "onDelete": [Function],
+          "task": Object {
+            "__v": 0,
+            "_id": "5ad91326115be0385d527a1b",
+            "createdAt": "2018-04-19T22:07:34.639Z",
+            "description": "asdfafa",
+            "pieces": Array [],
+            "updatedAt": "2018-04-19T22:07:34.640Z",
+            "user_id": "5ad65aa44212e29c4a922af7",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "5ad916889a0c1f39b919eff7",
+        "nodeType": "function",
+        "props": Object {
+          "onDelete": [Function],
+          "task": Object {
+            "__v": 0,
+            "_id": "5ad916889a0c1f39b919eff7",
+            "createdAt": "2018-04-19T22:07:34.639Z",
+            "description": "asdfafa",
+            "pieces": Array [],
+            "updatedAt": "2018-04-19T22:07:34.640Z",
+            "user_id": "5ad65aa44212e29c4a922af7",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "bsClass": "list-group",
+        "children": Array [
+          <Unknown
+            onDelete={[Function]}
+            task={
+              Object {
+                "__v": 0,
+                "_id": "5ad91326115be0385d527a1b",
+                "createdAt": "2018-04-19T22:07:34.639Z",
+                "description": "asdfafa",
+                "pieces": Array [],
+                "updatedAt": "2018-04-19T22:07:34.640Z",
+                "user_id": "5ad65aa44212e29c4a922af7",
+              }
+            }
+          />,
+          <Unknown
+            onDelete={[Function]}
+            task={
+              Object {
+                "__v": 0,
+                "_id": "5ad916889a0c1f39b919eff7",
+                "createdAt": "2018-04-19T22:07:34.639Z",
+                "description": "asdfafa",
+                "pieces": Array [],
+                "updatedAt": "2018-04-19T22:07:34.640Z",
+                "user_id": "5ad65aa44212e29c4a922af7",
+              }
+            }
+          />,
+        ],
+        "className": "tracklist",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "5ad91326115be0385d527a1b",
+          "nodeType": "function",
+          "props": Object {
+            "onDelete": [Function],
+            "task": Object {
+              "__v": 0,
+              "_id": "5ad91326115be0385d527a1b",
+              "createdAt": "2018-04-19T22:07:34.639Z",
+              "description": "asdfafa",
+              "pieces": Array [],
+              "updatedAt": "2018-04-19T22:07:34.640Z",
+              "user_id": "5ad65aa44212e29c4a922af7",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "5ad916889a0c1f39b919eff7",
+          "nodeType": "function",
+          "props": Object {
+            "onDelete": [Function],
+            "task": Object {
+              "__v": 0,
+              "_id": "5ad916889a0c1f39b919eff7",
+              "createdAt": "2018-04-19T22:07:34.639Z",
+              "description": "asdfafa",
+              "pieces": Array [],
+              "updatedAt": "2018-04-19T22:07:34.640Z",
+              "user_id": "5ad65aa44212e29c4a922af7",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

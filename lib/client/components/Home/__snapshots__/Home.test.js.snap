@@ -1,0 +1,358 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Home
+    message="message"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <div
+          className="container"
+        >
+          <Jumbotron
+            bsClass="jumbotron"
+            componentClass="div"
+          >
+            <h1>
+              Welcome to IncTracker
+            </h1>
+            <p>
+              You can start to track by one click
+            </p>
+          </Jumbotron>
+          <Connect(TrackList) />
+        </div>,
+        <div
+          className="container-fluid"
+          style={
+            Object {
+              "background": "#ebebebd1",
+              "bottom": 0,
+              "position": "fixed",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="container"
+          >
+            <Connect(TrackPlayer) />
+          </div>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Jumbotron
+              bsClass="jumbotron"
+              componentClass="div"
+            >
+              <h1>
+                Welcome to IncTracker
+              </h1>
+              <p>
+                You can start to track by one click
+              </p>
+            </Jumbotron>,
+            <Connect(TrackList) />,
+          ],
+          "className": "container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "jumbotron",
+              "children": Array [
+                <h1>
+                  Welcome to IncTracker
+                </h1>,
+                <p>
+                  You can start to track by one click
+                </p>,
+              ],
+              "componentClass": "div",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Welcome to IncTracker",
+                },
+                "ref": null,
+                "rendered": "Welcome to IncTracker",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "You can start to track by one click",
+                },
+                "ref": null,
+                "rendered": "You can start to track by one click",
+                "type": "p",
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="container"
+          >
+            <Connect(TrackPlayer) />
+          </div>,
+          "className": "container-fluid",
+          "style": Object {
+            "background": "#ebebebd1",
+            "bottom": 0,
+            "position": "fixed",
+            "width": "100%",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Connect(TrackPlayer) />,
+            "className": "container",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <div
+            className="container"
+          >
+            <Jumbotron
+              bsClass="jumbotron"
+              componentClass="div"
+            >
+              <h1>
+                Welcome to IncTracker
+              </h1>
+              <p>
+                You can start to track by one click
+              </p>
+            </Jumbotron>
+            <Connect(TrackList) />
+          </div>,
+          <div
+            className="container-fluid"
+            style={
+              Object {
+                "background": "#ebebebd1",
+                "bottom": 0,
+                "position": "fixed",
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              className="container"
+            >
+              <Connect(TrackPlayer) />
+            </div>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Jumbotron
+                bsClass="jumbotron"
+                componentClass="div"
+              >
+                <h1>
+                  Welcome to IncTracker
+                </h1>
+                <p>
+                  You can start to track by one click
+                </p>
+              </Jumbotron>,
+              <Connect(TrackList) />,
+            ],
+            "className": "container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "jumbotron",
+                "children": Array [
+                  <h1>
+                    Welcome to IncTracker
+                  </h1>,
+                  <p>
+                    You can start to track by one click
+                  </p>,
+                ],
+                "componentClass": "div",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Welcome to IncTracker",
+                  },
+                  "ref": null,
+                  "rendered": "Welcome to IncTracker",
+                  "type": "h1",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "You can start to track by one click",
+                  },
+                  "ref": null,
+                  "rendered": "You can start to track by one click",
+                  "type": "p",
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="container"
+            >
+              <Connect(TrackPlayer) />
+            </div>,
+            "className": "container-fluid",
+            "style": Object {
+              "background": "#ebebebd1",
+              "bottom": 0,
+              "position": "fixed",
+              "width": "100%",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Connect(TrackPlayer) />,
+              "className": "container",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
