@@ -26,7 +26,7 @@ And of course this Starter Kit itself is open source on GitHub.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-$ cd react-fullstack-starter-kit
+$ cd task-incloud
 $ yarn install
 $ yarn dev
 ```
